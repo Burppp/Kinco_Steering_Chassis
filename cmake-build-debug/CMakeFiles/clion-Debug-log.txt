@@ -1,0 +1,5 @@
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\Lumos\Desktop\14.CAN -B C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug
+-- Minimal optimization, debug info included
+-- Configuring done (0.1s)
+-- Generating done (0.2s)
+-- Build files have been written to: C:/Users/Lumos/Desktop/14.CAN/cmake-build-debug
