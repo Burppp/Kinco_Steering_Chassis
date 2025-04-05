@@ -27,6 +27,7 @@
 /* USER CODE BEGIN Includes */
 #include "bsp_can.h"
 #include "CAN_receive.h"
+#include "object_dictionary.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -58,7 +59,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+ObjectDictionary* od = NULL;
 /* USER CODE END 0 */
 
 /**
@@ -94,6 +95,14 @@ int main(void)
     MX_CAN2_Init();
     /* USER CODE BEGIN 2 */
     can_filter_init();
+
+    od = OD_Create();
+    if (od == NULL) {
+//        printf("创建对象字典失败\n");
+        return 1;
+    }
+    OD_User_Init(od);
+
     CAN_motor_enable(0x01);
     CAN_motor_mode(0x03, 0x01);
 

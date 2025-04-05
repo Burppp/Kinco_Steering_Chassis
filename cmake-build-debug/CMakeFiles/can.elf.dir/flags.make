@@ -5,13 +5,13 @@
 # compile C with C:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/12.2 mpacbti-rel1/bin/arm-none-eabi-gcc.exe
 ASM_DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -IC:\Users\Lumos\Desktop\14.CAN\Inc -IC:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\Lumos\Desktop\14.CAN\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\Lumos\Desktop\14.CAN\Drivers\CMSIS\Include -IC:\Users\Lumos\Desktop\14.CAN\bsp\boards -IC:\Users\Lumos\Desktop\14.CAN\application -IC:\Users\Lumos\Desktop\14.CAN\component\boards
+ASM_INCLUDES = -IC:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Inc -IC:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\CMSIS\Include -IC:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\bsp\boards -IC:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\application -IC:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\component\boards
 
 ASM_FLAGS = -g -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -x assembler-with-cpp -Og -g
 
 C_DEFINES = -DARM_MATH_CM4 -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING -DDEBUG -DSTM32F407xx -DUSE_HAL_DRIVER
 
-C_INCLUDES = -IC:\Users\Lumos\Desktop\14.CAN\Inc -IC:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\Lumos\Desktop\14.CAN\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\Lumos\Desktop\14.CAN\Drivers\CMSIS\Include -IC:\Users\Lumos\Desktop\14.CAN\bsp\boards -IC:\Users\Lumos\Desktop\14.CAN\application -IC:\Users\Lumos\Desktop\14.CAN\component\boards
+C_INCLUDES = -IC:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Inc -IC:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\CMSIS\Include -IC:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\bsp\boards -IC:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\application -IC:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\component\boards
 
 C_FLAGS = -g -std=gnu11 -fdiagnostics-color=always -mfloat-abi=hard -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
 

@@ -112,7 +112,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu11"
 				},
 				{
 					"backtrace" : 6,
@@ -190,35 +190,35 @@
 			[
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Lumos/Desktop/14.CAN/Inc"
+					"path" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Inc"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Lumos/Desktop/14.CAN/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Lumos/Desktop/14.CAN/Drivers/CMSIS/Include"
+					"path" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Lumos/Desktop/14.CAN/bsp/boards"
+					"path" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/bsp/boards"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Lumos/Desktop/14.CAN/application"
+					"path" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/application"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Lumos/Desktop/14.CAN/component/boards"
+					"path" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/component/boards"
 				}
 			],
 			"language" : "C",
@@ -350,35 +350,35 @@
 			[
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Lumos/Desktop/14.CAN/Inc"
+					"path" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Inc"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Lumos/Desktop/14.CAN/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Lumos/Desktop/14.CAN/Drivers/CMSIS/Include"
+					"path" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Lumos/Desktop/14.CAN/bsp/boards"
+					"path" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/bsp/boards"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Lumos/Desktop/14.CAN/application"
+					"path" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/application"
 				},
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Lumos/Desktop/14.CAN/component/boards"
+					"path" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/component/boards"
 				}
 			],
 			"language" : "ASM",
@@ -413,7 +413,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/Lumos/Desktop/14.CAN/cmake-build-debug/can.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/build/can.map",
 				"role" : "flags"
 			},
 			{
@@ -438,7 +438,7 @@
 			},
 			{
 				"backtrace" : 5,
-				"fragment" : "C:/Users/Lumos/Desktop/14.CAN/STM32F407IGHX_FLASH.ld",
+				"fragment" : "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/STM32F407IGHX_FLASH.ld",
 				"role" : "flags"
 			}
 		],

@@ -1,5 +1,5 @@
 CMakeFiles/can.elf.dir/Src/syscalls.c.obj: \
- C:\Users\Lumos\Desktop\14.CAN\Src\syscalls.c \
+ C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\syscalls.c \
  c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\sys\stat.h \
  c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\_ansi.h \
  c:\progra~2\armgnu~1\12977f~1.2mp\arm-none-eabi\include\newlib.h \

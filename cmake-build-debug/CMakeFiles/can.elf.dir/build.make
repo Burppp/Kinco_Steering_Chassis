@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Lumos\Desktop\14.CAN
+CMAKE_SOURCE_DIR = C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/can.elf.dir/depend.make
@@ -69,381 +69,409 @@ include CMakeFiles/can.elf.dir/progress.make
 include CMakeFiles/can.elf.dir/flags.make
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
+CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.i
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.s
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: C:/Users/Lumos/Desktop/14.CAN/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
 
 CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\can.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
 CMakeFiles/can.elf.dir/Src/can.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Src/can.c.obj: C:/Users/Lumos/Desktop/14.CAN/Src/can.c
+CMakeFiles/can.elf.dir/Src/can.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Src/can.c
 CMakeFiles/can.elf.dir/Src/can.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/can.elf.dir/Src/can.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Src/can.c.obj -MF CMakeFiles\can.elf.dir\Src\can.c.obj.d -o CMakeFiles\can.elf.dir\Src\can.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Src\can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/can.elf.dir/Src/can.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Src/can.c.obj -MF CMakeFiles\can.elf.dir\Src\can.c.obj.d -o CMakeFiles\can.elf.dir\Src\can.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\can.c
 
 CMakeFiles/can.elf.dir/Src/can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Src/can.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Src\can.c > CMakeFiles\can.elf.dir\Src\can.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\can.c > CMakeFiles\can.elf.dir\Src\can.c.i
 
 CMakeFiles/can.elf.dir/Src/can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Src/can.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Src\can.c -o CMakeFiles\can.elf.dir\Src\can.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\can.c -o CMakeFiles\can.elf.dir\Src\can.c.s
 
 CMakeFiles/can.elf.dir/Src/gpio.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Src/gpio.c.obj: C:/Users/Lumos/Desktop/14.CAN/Src/gpio.c
+CMakeFiles/can.elf.dir/Src/gpio.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Src/gpio.c
 CMakeFiles/can.elf.dir/Src/gpio.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/can.elf.dir/Src/gpio.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Src/gpio.c.obj -MF CMakeFiles\can.elf.dir\Src\gpio.c.obj.d -o CMakeFiles\can.elf.dir\Src\gpio.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Src\gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/can.elf.dir/Src/gpio.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Src/gpio.c.obj -MF CMakeFiles\can.elf.dir\Src\gpio.c.obj.d -o CMakeFiles\can.elf.dir\Src\gpio.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\gpio.c
 
 CMakeFiles/can.elf.dir/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Src/gpio.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Src\gpio.c > CMakeFiles\can.elf.dir\Src\gpio.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\gpio.c > CMakeFiles\can.elf.dir\Src\gpio.c.i
 
 CMakeFiles/can.elf.dir/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Src/gpio.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Src\gpio.c -o CMakeFiles\can.elf.dir\Src\gpio.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\gpio.c -o CMakeFiles\can.elf.dir\Src\gpio.c.s
 
 CMakeFiles/can.elf.dir/Src/main.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Src/main.c.obj: C:/Users/Lumos/Desktop/14.CAN/Src/main.c
+CMakeFiles/can.elf.dir/Src/main.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Src/main.c
 CMakeFiles/can.elf.dir/Src/main.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/can.elf.dir/Src/main.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Src/main.c.obj -MF CMakeFiles\can.elf.dir\Src\main.c.obj.d -o CMakeFiles\can.elf.dir\Src\main.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/can.elf.dir/Src/main.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Src/main.c.obj -MF CMakeFiles\can.elf.dir\Src\main.c.obj.d -o CMakeFiles\can.elf.dir\Src\main.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\main.c
 
 CMakeFiles/can.elf.dir/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Src/main.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Src\main.c > CMakeFiles\can.elf.dir\Src\main.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\main.c > CMakeFiles\can.elf.dir\Src\main.c.i
 
 CMakeFiles/can.elf.dir/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Src/main.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Src\main.c -o CMakeFiles\can.elf.dir\Src\main.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\main.c -o CMakeFiles\can.elf.dir\Src\main.c.s
 
 CMakeFiles/can.elf.dir/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Src/stm32f4xx_hal_msp.c.obj: C:/Users/Lumos/Desktop/14.CAN/Src/stm32f4xx_hal_msp.c
+CMakeFiles/can.elf.dir/Src/stm32f4xx_hal_msp.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Src/stm32f4xx_hal_msp.c
 CMakeFiles/can.elf.dir/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/can.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\can.elf.dir\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\can.elf.dir\Src\stm32f4xx_hal_msp.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Src\stm32f4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/can.elf.dir/Src/stm32f4xx_hal_msp.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\can.elf.dir\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\can.elf.dir\Src\stm32f4xx_hal_msp.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/can.elf.dir/Src/stm32f4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Src/stm32f4xx_hal_msp.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Src\stm32f4xx_hal_msp.c > CMakeFiles\can.elf.dir\Src\stm32f4xx_hal_msp.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\stm32f4xx_hal_msp.c > CMakeFiles\can.elf.dir\Src\stm32f4xx_hal_msp.c.i
 
 CMakeFiles/can.elf.dir/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Src/stm32f4xx_hal_msp.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Src\stm32f4xx_hal_msp.c -o CMakeFiles\can.elf.dir\Src\stm32f4xx_hal_msp.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\stm32f4xx_hal_msp.c -o CMakeFiles\can.elf.dir\Src\stm32f4xx_hal_msp.c.s
 
 CMakeFiles/can.elf.dir/Src/stm32f4xx_it.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Src/stm32f4xx_it.c.obj: C:/Users/Lumos/Desktop/14.CAN/Src/stm32f4xx_it.c
+CMakeFiles/can.elf.dir/Src/stm32f4xx_it.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Src/stm32f4xx_it.c
 CMakeFiles/can.elf.dir/Src/stm32f4xx_it.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/can.elf.dir/Src/stm32f4xx_it.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Src/stm32f4xx_it.c.obj -MF CMakeFiles\can.elf.dir\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\can.elf.dir\Src\stm32f4xx_it.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Src\stm32f4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/can.elf.dir/Src/stm32f4xx_it.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Src/stm32f4xx_it.c.obj -MF CMakeFiles\can.elf.dir\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\can.elf.dir\Src\stm32f4xx_it.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\stm32f4xx_it.c
 
 CMakeFiles/can.elf.dir/Src/stm32f4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Src/stm32f4xx_it.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Src\stm32f4xx_it.c > CMakeFiles\can.elf.dir\Src\stm32f4xx_it.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\stm32f4xx_it.c > CMakeFiles\can.elf.dir\Src\stm32f4xx_it.c.i
 
 CMakeFiles/can.elf.dir/Src/stm32f4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Src/stm32f4xx_it.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Src\stm32f4xx_it.c -o CMakeFiles\can.elf.dir\Src\stm32f4xx_it.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\stm32f4xx_it.c -o CMakeFiles\can.elf.dir\Src\stm32f4xx_it.c.s
 
 CMakeFiles/can.elf.dir/Src/syscalls.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Src/syscalls.c.obj: C:/Users/Lumos/Desktop/14.CAN/Src/syscalls.c
+CMakeFiles/can.elf.dir/Src/syscalls.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Src/syscalls.c
 CMakeFiles/can.elf.dir/Src/syscalls.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/can.elf.dir/Src/syscalls.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Src/syscalls.c.obj -MF CMakeFiles\can.elf.dir\Src\syscalls.c.obj.d -o CMakeFiles\can.elf.dir\Src\syscalls.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/can.elf.dir/Src/syscalls.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Src/syscalls.c.obj -MF CMakeFiles\can.elf.dir\Src\syscalls.c.obj.d -o CMakeFiles\can.elf.dir\Src\syscalls.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\syscalls.c
 
 CMakeFiles/can.elf.dir/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Src/syscalls.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Src\syscalls.c > CMakeFiles\can.elf.dir\Src\syscalls.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\syscalls.c > CMakeFiles\can.elf.dir\Src\syscalls.c.i
 
 CMakeFiles/can.elf.dir/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Src/syscalls.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Src\syscalls.c -o CMakeFiles\can.elf.dir\Src\syscalls.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\syscalls.c -o CMakeFiles\can.elf.dir\Src\syscalls.c.s
 
 CMakeFiles/can.elf.dir/Src/sysmem.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Src/sysmem.c.obj: C:/Users/Lumos/Desktop/14.CAN/Src/sysmem.c
+CMakeFiles/can.elf.dir/Src/sysmem.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Src/sysmem.c
 CMakeFiles/can.elf.dir/Src/sysmem.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/can.elf.dir/Src/sysmem.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Src/sysmem.c.obj -MF CMakeFiles\can.elf.dir\Src\sysmem.c.obj.d -o CMakeFiles\can.elf.dir\Src\sysmem.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Src\sysmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/can.elf.dir/Src/sysmem.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Src/sysmem.c.obj -MF CMakeFiles\can.elf.dir\Src\sysmem.c.obj.d -o CMakeFiles\can.elf.dir\Src\sysmem.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\sysmem.c
 
 CMakeFiles/can.elf.dir/Src/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Src/sysmem.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Src\sysmem.c > CMakeFiles\can.elf.dir\Src\sysmem.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\sysmem.c > CMakeFiles\can.elf.dir\Src\sysmem.c.i
 
 CMakeFiles/can.elf.dir/Src/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Src/sysmem.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Src\sysmem.c -o CMakeFiles\can.elf.dir\Src\sysmem.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\sysmem.c -o CMakeFiles\can.elf.dir\Src\sysmem.c.s
 
 CMakeFiles/can.elf.dir/Src/system_stm32f4xx.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Src/system_stm32f4xx.c.obj: C:/Users/Lumos/Desktop/14.CAN/Src/system_stm32f4xx.c
+CMakeFiles/can.elf.dir/Src/system_stm32f4xx.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Src/system_stm32f4xx.c
 CMakeFiles/can.elf.dir/Src/system_stm32f4xx.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/can.elf.dir/Src/system_stm32f4xx.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Src/system_stm32f4xx.c.obj -MF CMakeFiles\can.elf.dir\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\can.elf.dir\Src\system_stm32f4xx.c.obj -c C:\Users\Lumos\Desktop\14.CAN\Src\system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/can.elf.dir/Src/system_stm32f4xx.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/Src/system_stm32f4xx.c.obj -MF CMakeFiles\can.elf.dir\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\can.elf.dir\Src\system_stm32f4xx.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\system_stm32f4xx.c
 
 CMakeFiles/can.elf.dir/Src/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/Src/system_stm32f4xx.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Src\system_stm32f4xx.c > CMakeFiles\can.elf.dir\Src\system_stm32f4xx.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\system_stm32f4xx.c > CMakeFiles\can.elf.dir\Src\system_stm32f4xx.c.i
 
 CMakeFiles/can.elf.dir/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/Src/system_stm32f4xx.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Src\system_stm32f4xx.c -o CMakeFiles\can.elf.dir\Src\system_stm32f4xx.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Src\system_stm32f4xx.c -o CMakeFiles\can.elf.dir\Src\system_stm32f4xx.c.s
 
 CMakeFiles/can.elf.dir/Startup/startup_stm32f407ighx.s.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/Startup/startup_stm32f407ighx.s.obj: C:/Users/Lumos/Desktop/14.CAN/Startup/startup_stm32f407ighx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object CMakeFiles/can.elf.dir/Startup/startup_stm32f407ighx.s.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\can.elf.dir\Startup\startup_stm32f407ighx.s.obj -c C:\Users\Lumos\Desktop\14.CAN\Startup\startup_stm32f407ighx.s
+CMakeFiles/can.elf.dir/Startup/startup_stm32f407ighx.s.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/Startup/startup_stm32f407ighx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object CMakeFiles/can.elf.dir/Startup/startup_stm32f407ighx.s.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\can.elf.dir\Startup\startup_stm32f407ighx.s.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Startup\startup_stm32f407ighx.s
 
 CMakeFiles/can.elf.dir/Startup/startup_stm32f407ighx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/can.elf.dir/Startup/startup_stm32f407ighx.s.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\Startup\startup_stm32f407ighx.s > CMakeFiles\can.elf.dir\Startup\startup_stm32f407ighx.s.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Startup\startup_stm32f407ighx.s > CMakeFiles\can.elf.dir\Startup\startup_stm32f407ighx.s.i
 
 CMakeFiles/can.elf.dir/Startup/startup_stm32f407ighx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/can.elf.dir/Startup/startup_stm32f407ighx.s.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\Startup\startup_stm32f407ighx.s -o CMakeFiles\can.elf.dir\Startup\startup_stm32f407ighx.s.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\Startup\startup_stm32f407ighx.s -o CMakeFiles\can.elf.dir\Startup\startup_stm32f407ighx.s.s
 
 CMakeFiles/can.elf.dir/application/CAN_receive.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/application/CAN_receive.c.obj: C:/Users/Lumos/Desktop/14.CAN/application/CAN_receive.c
+CMakeFiles/can.elf.dir/application/CAN_receive.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/application/CAN_receive.c
 CMakeFiles/can.elf.dir/application/CAN_receive.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/can.elf.dir/application/CAN_receive.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/application/CAN_receive.c.obj -MF CMakeFiles\can.elf.dir\application\CAN_receive.c.obj.d -o CMakeFiles\can.elf.dir\application\CAN_receive.c.obj -c C:\Users\Lumos\Desktop\14.CAN\application\CAN_receive.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/can.elf.dir/application/CAN_receive.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/application/CAN_receive.c.obj -MF CMakeFiles\can.elf.dir\application\CAN_receive.c.obj.d -o CMakeFiles\can.elf.dir\application\CAN_receive.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\application\CAN_receive.c
 
 CMakeFiles/can.elf.dir/application/CAN_receive.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/application/CAN_receive.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\application\CAN_receive.c > CMakeFiles\can.elf.dir\application\CAN_receive.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\application\CAN_receive.c > CMakeFiles\can.elf.dir\application\CAN_receive.c.i
 
 CMakeFiles/can.elf.dir/application/CAN_receive.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/application/CAN_receive.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\application\CAN_receive.c -o CMakeFiles\can.elf.dir\application\CAN_receive.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\application\CAN_receive.c -o CMakeFiles\can.elf.dir\application\CAN_receive.c.s
+
+CMakeFiles/can.elf.dir/application/object_dictionary.c.obj: CMakeFiles/can.elf.dir/flags.make
+CMakeFiles/can.elf.dir/application/object_dictionary.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/application/object_dictionary.c
+CMakeFiles/can.elf.dir/application/object_dictionary.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/can.elf.dir/application/object_dictionary.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/application/object_dictionary.c.obj -MF CMakeFiles\can.elf.dir\application\object_dictionary.c.obj.d -o CMakeFiles\can.elf.dir\application\object_dictionary.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\application\object_dictionary.c
+
+CMakeFiles/can.elf.dir/application/object_dictionary.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/application/object_dictionary.c.i"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\application\object_dictionary.c > CMakeFiles\can.elf.dir\application\object_dictionary.c.i
+
+CMakeFiles/can.elf.dir/application/object_dictionary.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/application/object_dictionary.c.s"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\application\object_dictionary.c -o CMakeFiles\can.elf.dir\application\object_dictionary.c.s
+
+CMakeFiles/can.elf.dir/application/object_dictionary_example.c.obj: CMakeFiles/can.elf.dir/flags.make
+CMakeFiles/can.elf.dir/application/object_dictionary_example.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/application/object_dictionary_example.c
+CMakeFiles/can.elf.dir/application/object_dictionary_example.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/can.elf.dir/application/object_dictionary_example.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/application/object_dictionary_example.c.obj -MF CMakeFiles\can.elf.dir\application\object_dictionary_example.c.obj.d -o CMakeFiles\can.elf.dir\application\object_dictionary_example.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\application\object_dictionary_example.c
+
+CMakeFiles/can.elf.dir/application/object_dictionary_example.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/application/object_dictionary_example.c.i"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\application\object_dictionary_example.c > CMakeFiles\can.elf.dir\application\object_dictionary_example.c.i
+
+CMakeFiles/can.elf.dir/application/object_dictionary_example.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/application/object_dictionary_example.c.s"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\application\object_dictionary_example.c -o CMakeFiles\can.elf.dir\application\object_dictionary_example.c.s
 
 CMakeFiles/can.elf.dir/bsp/boards/bsp_can.c.obj: CMakeFiles/can.elf.dir/flags.make
-CMakeFiles/can.elf.dir/bsp/boards/bsp_can.c.obj: C:/Users/Lumos/Desktop/14.CAN/bsp/boards/bsp_can.c
+CMakeFiles/can.elf.dir/bsp/boards/bsp_can.c.obj: C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/bsp/boards/bsp_can.c
 CMakeFiles/can.elf.dir/bsp/boards/bsp_can.c.obj: CMakeFiles/can.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/can.elf.dir/bsp/boards/bsp_can.c.obj"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/bsp/boards/bsp_can.c.obj -MF CMakeFiles\can.elf.dir\bsp\boards\bsp_can.c.obj.d -o CMakeFiles\can.elf.dir\bsp\boards\bsp_can.c.obj -c C:\Users\Lumos\Desktop\14.CAN\bsp\boards\bsp_can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/can.elf.dir/bsp/boards/bsp_can.c.obj"
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/can.elf.dir/bsp/boards/bsp_can.c.obj -MF CMakeFiles\can.elf.dir\bsp\boards\bsp_can.c.obj.d -o CMakeFiles\can.elf.dir\bsp\boards\bsp_can.c.obj -c C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\bsp\boards\bsp_can.c
 
 CMakeFiles/can.elf.dir/bsp/boards/bsp_can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/can.elf.dir/bsp/boards/bsp_can.c.i"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Desktop\14.CAN\bsp\boards\bsp_can.c > CMakeFiles\can.elf.dir\bsp\boards\bsp_can.c.i
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\bsp\boards\bsp_can.c > CMakeFiles\can.elf.dir\bsp\boards\bsp_can.c.i
 
 CMakeFiles/can.elf.dir/bsp/boards/bsp_can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/can.elf.dir/bsp/boards/bsp_can.c.s"
-	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Desktop\14.CAN\bsp\boards\bsp_can.c -o CMakeFiles\can.elf.dir\bsp\boards\bsp_can.c.s
+	C:\PROGRA~2\ARMGNU~1\12977F~1.2MP\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\bsp\boards\bsp_can.c -o CMakeFiles\can.elf.dir\bsp\boards\bsp_can.c.s
 
 # Object files for target can.elf
 can_elf_OBJECTS = \
@@ -473,6 +501,8 @@ can_elf_OBJECTS = \
 "CMakeFiles/can.elf.dir/Src/system_stm32f4xx.c.obj" \
 "CMakeFiles/can.elf.dir/Startup/startup_stm32f407ighx.s.obj" \
 "CMakeFiles/can.elf.dir/application/CAN_receive.c.obj" \
+"CMakeFiles/can.elf.dir/application/object_dictionary.c.obj" \
+"CMakeFiles/can.elf.dir/application/object_dictionary_example.c.obj" \
 "CMakeFiles/can.elf.dir/bsp/boards/bsp_can.c.obj"
 
 # External object files for target can.elf
@@ -504,15 +534,17 @@ can.elf: CMakeFiles/can.elf.dir/Src/sysmem.c.obj
 can.elf: CMakeFiles/can.elf.dir/Src/system_stm32f4xx.c.obj
 can.elf: CMakeFiles/can.elf.dir/Startup/startup_stm32f407ighx.s.obj
 can.elf: CMakeFiles/can.elf.dir/application/CAN_receive.c.obj
+can.elf: CMakeFiles/can.elf.dir/application/object_dictionary.c.obj
+can.elf: CMakeFiles/can.elf.dir/application/object_dictionary_example.c.obj
 can.elf: CMakeFiles/can.elf.dir/bsp/boards/bsp_can.c.obj
 can.elf: CMakeFiles/can.elf.dir/build.make
 can.elf: CMakeFiles/can.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking C executable can.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C executable can.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\can.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/Users/Lumos/Desktop/14.CAN/cmake-build-debug/can.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/Users/Lumos/Desktop/14.CAN/cmake-build-debug/can.bin"
-	arm-none-eabi-objcopy -Oihex C:/Users/Lumos/Desktop/14.CAN/cmake-build-debug/can.elf C:/Users/Lumos/Desktop/14.CAN/cmake-build-debug/can.hex
-	arm-none-eabi-objcopy -Obinary C:/Users/Lumos/Desktop/14.CAN/cmake-build-debug/can.elf C:/Users/Lumos/Desktop/14.CAN/cmake-build-debug/can.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/cmake-build-debug/can.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/cmake-build-debug/can.bin"
+	arm-none-eabi-objcopy -Oihex C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/cmake-build-debug/can.elf C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/cmake-build-debug/can.hex
+	arm-none-eabi-objcopy -Obinary C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/cmake-build-debug/can.elf C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/cmake-build-debug/can.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/can.elf.dir/build: can.elf
@@ -523,6 +555,6 @@ CMakeFiles/can.elf.dir/clean:
 .PHONY : CMakeFiles/can.elf.dir/clean
 
 CMakeFiles/can.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Lumos\Desktop\14.CAN C:\Users\Lumos\Desktop\14.CAN C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles\can.elf.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles\can.elf.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/can.elf.dir/depend
 

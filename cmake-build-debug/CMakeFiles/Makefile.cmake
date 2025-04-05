@@ -22,7 +22,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake"
   "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Generic.cmake"
-  "C:/Users/Lumos/Desktop/14.CAN/CMakeLists.txt"
+  "C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/CMakeLists.txt"
   "CMakeFiles/3.29.6/CMakeASMCompiler.cmake"
   "CMakeFiles/3.29.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.6/CMakeCXXCompiler.cmake"

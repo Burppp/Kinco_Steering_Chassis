@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Lumos\Desktop\14.CAN
+CMAKE_SOURCE_DIR = C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lumos\Desktop\14.CAN\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -736,6 +736,54 @@ application/CAN_receive.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\can.elf.dir\build.make CMakeFiles/can.elf.dir/application/CAN_receive.c.s
 .PHONY : application/CAN_receive.c.s
 
+application/object_dictionary.obj: application/object_dictionary.c.obj
+.PHONY : application/object_dictionary.obj
+
+# target to build an object file
+application/object_dictionary.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\can.elf.dir\build.make CMakeFiles/can.elf.dir/application/object_dictionary.c.obj
+.PHONY : application/object_dictionary.c.obj
+
+application/object_dictionary.i: application/object_dictionary.c.i
+.PHONY : application/object_dictionary.i
+
+# target to preprocess a source file
+application/object_dictionary.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\can.elf.dir\build.make CMakeFiles/can.elf.dir/application/object_dictionary.c.i
+.PHONY : application/object_dictionary.c.i
+
+application/object_dictionary.s: application/object_dictionary.c.s
+.PHONY : application/object_dictionary.s
+
+# target to generate assembly for a file
+application/object_dictionary.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\can.elf.dir\build.make CMakeFiles/can.elf.dir/application/object_dictionary.c.s
+.PHONY : application/object_dictionary.c.s
+
+application/object_dictionary_example.obj: application/object_dictionary_example.c.obj
+.PHONY : application/object_dictionary_example.obj
+
+# target to build an object file
+application/object_dictionary_example.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\can.elf.dir\build.make CMakeFiles/can.elf.dir/application/object_dictionary_example.c.obj
+.PHONY : application/object_dictionary_example.c.obj
+
+application/object_dictionary_example.i: application/object_dictionary_example.c.i
+.PHONY : application/object_dictionary_example.i
+
+# target to preprocess a source file
+application/object_dictionary_example.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\can.elf.dir\build.make CMakeFiles/can.elf.dir/application/object_dictionary_example.c.i
+.PHONY : application/object_dictionary_example.c.i
+
+application/object_dictionary_example.s: application/object_dictionary_example.c.s
+.PHONY : application/object_dictionary_example.s
+
+# target to generate assembly for a file
+application/object_dictionary_example.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\can.elf.dir\build.make CMakeFiles/can.elf.dir/application/object_dictionary_example.c.s
+.PHONY : application/object_dictionary_example.c.s
+
 bsp/boards/bsp_can.obj: bsp/boards/bsp_can.c.obj
 .PHONY : bsp/boards/bsp_can.obj
 
@@ -845,6 +893,12 @@ help:
 	@echo ... application/CAN_receive.obj
 	@echo ... application/CAN_receive.i
 	@echo ... application/CAN_receive.s
+	@echo ... application/object_dictionary.obj
+	@echo ... application/object_dictionary.i
+	@echo ... application/object_dictionary.s
+	@echo ... application/object_dictionary_example.obj
+	@echo ... application/object_dictionary_example.i
+	@echo ... application/object_dictionary_example.s
 	@echo ... bsp/boards/bsp_can.obj
 	@echo ... bsp/boards/bsp_can.i
 	@echo ... bsp/boards/bsp_can.s
