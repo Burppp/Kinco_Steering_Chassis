@@ -70,7 +70,10 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 
         case SDO_SELF_ID:
             SDO_FRAME_t frame;
-            memcpy(&frame, rx_data, sizeof(SDO_FRAME_t));
+            // memcpy(&frame, rx_data, sizeof(SDO_FRAME_t));
+            frame.ctrl = rx_data[0];
+            frame.index = rx_data[1] | (rx_data[2] << 8);
+            frame.subindex = rx_data[3];
             if(frame.ctrl == SEND_SUCCESS_FEEDBACK)
             {
                 OD_Entry* entry = OD_GetEntry(od, frame.index, frame.subindex);
@@ -92,8 +95,9 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
                         break;
                 }
                 uint8_t *recv_data = NULL;
-                memcpy(recv_data, rx_data + sizeof(recv_data), data_length);
-                OD_SetValue(od, frame.index, frame.subindex, (uint8_t *)recv_data);
+                // memcpy(recv_data, rx_data + sizeof(recv_data), data_length);
+                recv_data = rx_data + sizeof(SDO_FRAME_t);
+                OD_SetValue(od, frame.index, frame.subindex, (uint8_t *)&rx_data[4]);
             }
             else if(frame.ctrl == SEND_FAILED_FEEDBACK)
             {
@@ -116,18 +120,9 @@ void CAN_motor_enable(uint8_t motor_id)
     chassis_tx_message.IDE = CAN_ID_STD;
     chassis_tx_message.RTR = CAN_RTR_DATA;
     chassis_tx_message.DLC = 0x08;
-//    chassis_can_send_data = {0x2B, 0x40, 0x60, 0x00, 0x0F, 0x00, 0x00, 0x00};
-    // chassis_can_send_data[0] = 0x2B;
-    // chassis_can_send_data[1] = 0x40;
-    // chassis_can_send_data[2] = 0x60;
-    // chassis_can_send_data[3] = 0x00;
-    // chassis_can_send_data[4] = 0x0F;
-    // chassis_can_send_data[5] = 0x00;
-    // chassis_can_send_data[6] = 0x00;
-    // chassis_can_send_data[7] = 0x00;
 
     OD_Entry* entry = OD_GetEntry(od, OD_INDEX_CONTROL_WORD, OD_SUBINDEX_DEFAULT);
-    uint16_t value = CONTROL_WORD_ENABLE;
+    uint16_t value = CONTROL_WORD_ABSOLUTE_POSITION_ENABLE;
     if (entry != NULL) {
         
     }
@@ -163,11 +158,6 @@ void CAN_motor_enable(uint8_t motor_id)
         memcpy(&chassis_can_send_data[4], (uint8_t *)&value, data_length);
         for(int i = 4 + data_length;i < 8;i++)
             chassis_can_send_data[i] = 0x00;
-        
-        // chassis_can_send_data[4] = CONTROL_WORD_ENABLE & 0xFF;
-        // chassis_can_send_data[5] = (CONTROL_WORD_ENABLE >> 8) & 0xFF;
-        // chassis_can_send_data[6] = 0x00;
-        // chassis_can_send_data[7] = 0x00;
     }
     else
     {
@@ -184,15 +174,6 @@ void CAN_motor_mode(int8_t mode, uint8_t motor_id)
     chassis_tx_message.IDE = CAN_ID_STD;
     chassis_tx_message.RTR = CAN_RTR_DATA;
     chassis_tx_message.DLC = 0x08;
-//    chassis_can_send_data = {0x2B, 0x40, 0x60, 0x00, 0x0F, 0x00, 0x00, 0x00};
-    // chassis_can_send_data[0] = 0x2F;
-    // chassis_can_send_data[1] = 0x60;
-    // chassis_can_send_data[2] = 0x60;
-    // chassis_can_send_data[3] = 0x00;
-    // chassis_can_send_data[4] = mode;
-    // chassis_can_send_data[5] = 0x00;
-    // chassis_can_send_data[6] = 0x00;
-    // chassis_can_send_data[7] = 0x00;
 
     OD_Entry* entry = OD_GetEntry(od, OD_INDEX_MODE_OF_OPERATION, OD_SUBINDEX_DEFAULT);
     uint16_t value = mode;
@@ -231,12 +212,6 @@ void CAN_motor_mode(int8_t mode, uint8_t motor_id)
         memcpy(&chassis_can_send_data[4], (uint8_t *)&value, data_length);
         for(int i = 4 + data_length;i < 8;i++)
             chassis_can_send_data[i] = 0x00;
-        
-        // chassis_can_send_data[3] = SPEED_CONTROL_WITH_ACCELERATION & 0xFF;
-        // chassis_can_send_data[4] = (SPEED_CONTROL_WITH_ACCELERATION >> 8) & 0xFF;
-        // chassis_can_send_data[5] = 0x00;
-        // chassis_can_send_data[6] = 0x00;
-        // chassis_can_send_data[7] = 0x00;
     }
     else
     {
@@ -246,6 +221,113 @@ void CAN_motor_mode(int8_t mode, uint8_t motor_id)
     HAL_CAN_AddTxMessage(&CHASSIS_CAN, &chassis_tx_message, chassis_can_send_data, &send_mail_box);
 }
 
+void CAN_motor_setProfileSpeed(uint32_t profile_speed, uint8_t motor_id)
+{
+    uint32_t send_mail_box;
+    chassis_tx_message.StdId = 0x600 + motor_id;
+    chassis_tx_message.IDE = CAN_ID_STD;
+    chassis_tx_message.RTR = CAN_RTR_DATA;
+    chassis_tx_message.DLC = 0x08;
+
+    OD_Entry* entry = OD_GetEntry(od, OD_INDEX_PROFILE_SPEED, OD_SUBINDEX_DEFAULT);
+    int32_t real_speed_ref = profile_speed * RPM_TO_DEC;
+    if (entry != NULL) {
+        
+    }
+    if(entry->accessWrite)
+    {
+        uint8_t data_length_ctrl = 0;
+        uint8_t data_length = 0;
+        switch (entry->dataType)
+        {
+        case OD_TYPE_INT8:
+        case OD_TYPE_UINT8:
+            data_length_ctrl = SDO_SEND_1_BYTE;
+            data_length = 1;
+            break;
+        case OD_TYPE_INT16:
+        case OD_TYPE_UINT16:
+            data_length_ctrl = SDO_SEND_2_BYTE;
+            data_length = 2;
+            break;
+        case OD_TYPE_INT32:
+        case OD_TYPE_UINT32:
+            data_length_ctrl = SDO_SEND_4_BYTE;
+            data_length = 4;
+            break;
+        default:
+            break;
+        }
+
+        chassis_can_send_data[0] = data_length_ctrl;
+        chassis_can_send_data[1] = entry->index & 0xFF;
+        chassis_can_send_data[2] = (entry->index >> 8) & 0xFF;
+        chassis_can_send_data[3] = entry->subindex;
+        memcpy(&chassis_can_send_data[4], (uint8_t *)&real_speed_ref, data_length);
+        for(int i = 4 + data_length;i < 8;i++)
+            chassis_can_send_data[i] = 0x00;
+    }
+    else
+    {
+        return;
+    }
+    HAL_CAN_AddTxMessage(&CHASSIS_CAN, &chassis_tx_message, chassis_can_send_data, &send_mail_box);
+
+}
+
+void CAN_motor_setPos(int32_t position_ref, uint8_t motor_id)
+{
+    uint32_t send_mail_box;
+    chassis_tx_message.StdId = 0x600 + motor_id;
+    chassis_tx_message.IDE = CAN_ID_STD;
+    chassis_tx_message.RTR = CAN_RTR_DATA;
+    chassis_tx_message.DLC = 0x08;
+
+    OD_Entry* entry = OD_GetEntry(od, OD_INDEX_TARGET_POS, OD_SUBINDEX_DEFAULT);
+    if (entry != NULL) {
+        
+    }
+    if(entry->accessWrite)
+    {
+        uint8_t data_length_ctrl = 0;
+        uint8_t data_length = 0;
+        switch (entry->dataType)
+        {
+        case OD_TYPE_INT8:
+        case OD_TYPE_UINT8:
+            data_length_ctrl = SDO_SEND_1_BYTE;
+            data_length = 1;
+            break;
+        case OD_TYPE_INT16:
+        case OD_TYPE_UINT16:
+            data_length_ctrl = SDO_SEND_2_BYTE;
+            data_length = 2;
+            break;
+        case OD_TYPE_INT32:
+        case OD_TYPE_UINT32:
+            data_length_ctrl = SDO_SEND_4_BYTE;
+            data_length = 4;
+            break;
+        default:
+            break;
+        }
+
+        chassis_can_send_data[0] = data_length_ctrl;
+        chassis_can_send_data[1] = entry->index & 0xFF;
+        chassis_can_send_data[2] = (entry->index >> 8) & 0xFF;
+        chassis_can_send_data[3] = entry->subindex;
+        memcpy(&chassis_can_send_data[4], (uint8_t *)&position_ref, data_length);
+        for(int i = 4 + data_length;i < 8;i++)
+            chassis_can_send_data[i] = 0x00;
+    }
+    else
+    {
+        return;
+    }
+    HAL_CAN_AddTxMessage(&CHASSIS_CAN, &chassis_tx_message, chassis_can_send_data, &send_mail_box);
+
+}
+
 void CAN_motor_setSpeed(int32_t speed_ref, uint8_t motor_id)
 {
     uint32_t send_mail_box;
@@ -253,14 +335,6 @@ void CAN_motor_setSpeed(int32_t speed_ref, uint8_t motor_id)
     chassis_tx_message.IDE = CAN_ID_STD;
     chassis_tx_message.RTR = CAN_RTR_DATA;
     chassis_tx_message.DLC = 0x08;
-    // chassis_can_send_data[0] = 0x23;
-    // chassis_can_send_data[1] = 0xFF;
-    // chassis_can_send_data[2] = 0x60;
-    // chassis_can_send_data[3] = 0x00;
-    // chassis_can_send_data[4] = 0x00;
-    // chassis_can_send_data[5] = 0x40;
-    // chassis_can_send_data[6] = 0x06;
-    // chassis_can_send_data[7] = 0x00;
 
     OD_Entry* entry = OD_GetEntry(od, OD_INDEX_TARGET_SPEED, OD_SUBINDEX_DEFAULT);
     int32_t real_speed_ref = speed_ref * RPM_TO_DEC;

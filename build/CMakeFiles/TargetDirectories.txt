@@ -1,3 +1,0 @@
-C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/build/CMakeFiles/can.elf.dir
-C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/build/CMakeFiles/edit_cache.dir
-C:/Users/Lumos/Documents/GitHub/Kinco_Steering_Chassis/build/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,7 @@
 #MicroXplorer Configuration settings - do not modify
+CAD.formats=
+CAD.pinconfig=
+CAD.provider=
 CAN1.BS1=CAN_BS1_10TQ
 CAN1.BS2=CAN_BS2_3TQ
 CAN1.CalculateBaudRate=1000000
@@ -93,11 +96,14 @@ ProjectManager.PreviousToolchain=STM32CubeIDE
 ProjectManager.ProjectBuild=false
 ProjectManager.ProjectFileName=can.ioc
 ProjectManager.ProjectName=can
+ProjectManager.ProjectStructure=
 ProjectManager.RegisterCallBack=
 ProjectManager.StackSize=0x400
-ProjectManager.TargetToolchain=STM32CubeIDE
+ProjectManager.TargetToolchain=MDK-ARM V5.32
 ProjectManager.ToolChainLocation=
-ProjectManager.UnderRoot=true
+ProjectManager.UAScriptAfterPath=
+ProjectManager.UAScriptBeforePath=
+ProjectManager.UnderRoot=false
 ProjectManager.functionlistsort=1-MX_GPIO_Init-GPIO-false-HAL-true,2-SystemClock_Config-RCC-false-HAL-false,3-MX_CAN1_Init-CAN1-false-HAL-true,4-MX_CAN2_Init-CAN2-false-HAL-true
 RCC.48MHZClocksFreq_Value=84000000
 RCC.AHBFreq_Value=168000000

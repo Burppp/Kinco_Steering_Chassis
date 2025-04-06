@@ -98,13 +98,14 @@ int main(void)
 
     od = OD_Create();
     if (od == NULL) {
-//        printf("åˆ›å»ºå¯¹è±¡å­—å…¸å¤±è´¥\n");
+//        printf("´´½¨¶ÔÏó×ÖµäÊ§°Ü\n");
         return 1;
     }
     OD_User_Init(od);
 
     CAN_motor_enable(0x01);
-    CAN_motor_mode(0x03, 0x01);
+    CAN_motor_mode(0x01, 0x01);
+    CAN_motor_setProfileSpeed(150, 0x01);
 
     /* USER CODE END 2 */
 
@@ -113,7 +114,7 @@ int main(void)
     while (1)
     {
         /* USER CODE END WHILE */
-        CAN_motor_setSpeed(150, 0x01);
+        CAN_motor_setPos(0, 0x01);
         /* USER CODE BEGIN 3 */
         HAL_Delay(200);
     }

@@ -27,5 +27,7 @@
 void CAN_motor_enable(uint8_t motor_id);
 void CAN_motor_mode(int8_t mode, uint8_t motor_id);
 void CAN_motor_setSpeed(int32_t speed_ref, uint8_t motor_id);
+void CAN_motor_setProfileSpeed(uint32_t profile_speed, uint8_t motor_id);
+void CAN_motor_setPos(int32_t position_ref, uint8_t motor_id);
 
 #endif
