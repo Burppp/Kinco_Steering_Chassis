@@ -36,20 +36,6 @@ typedef enum {
     OD_INDEX_GROUP_POSITION_LOOP = 0x60FB,  //Kpp:1,K_Velocity_FF:2,K_Acc_FF:3,Pos_Filter_N:5
 } OD_Index;
 
-typedef enum
-{
-    POSITION_CONTROL = 0x01,
-    SPEED_CONTROL_WITH_ACCELERATION = 0x03,
-    TORQUE_CONTROL = 0x04,
-    HOMING_MODE = 0x06,
-    INTERPOLATION_MODE = 0x07,
-    CSP = 0x08,
-    CSV = 0x09,
-    CST = 0x0A,
-    PULSE_TRAIN_CONTROL = -4,
-    IMMEDIATE_SPEED_CONTROL = -3,
-}MODE_ENUM;
-
 typedef enum{
     OD_SUBINDEX_DEFAULT = 0x00,
     OD_SUBINDEX_1 = 0x01,

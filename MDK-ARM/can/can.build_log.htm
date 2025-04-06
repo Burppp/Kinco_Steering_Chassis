@@ -27,13 +27,11 @@ Project File Date:  04/05/2025
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil5\ARM\ARMCC\Bin'
 Build target 'can'
-compiling main.c...
-..\application\object_dictionary.h(131): warning:  #1-D: last line of file ends without a newline
-  #endif // OBJECT_DICTIONARY_H 
-../Src/main.c: 1 warning, 0 errors
 compiling CAN_receive.c...
-..\application\object_dictionary.h(131): warning:  #1-D: last line of file ends without a newline
-  #endif // OBJECT_DICTIONARY_H 
+..\application\packet_param.h(10): warning:  #47-D: incompatible redefinition of macro "CONTROL_WORD_ENABLE"  (declared at line 34 of "..\application\CAN_receive.h")
+  #define CONTROL_WORD_ENABLE 0x000F
+..\application\packet_param.h(11): warning:  #47-D: incompatible redefinition of macro "CONTROL_WORD_ABSOLUTE_POSITION_ENABLE"  (declared at line 36 of "..\application\CAN_receive.h")
+  #define CONTROL_WORD_ABSOLUTE_POSITION_ENABLE 0x103F
 ..\application\CAN_receive.c(72): warning:  #1182-D: a declaration cannot have a label
               SDO_FRAME_t frame;
 ..\application\CAN_receive.c(80): warning:  #550-D: variable "data_length"  was set but never used
@@ -44,9 +42,9 @@ compiling CAN_receive.c...
   static CAN_TxHeaderTypeDef  gimbal_tx_message;
 ..\application\CAN_receive.c(33): warning:  #177-D: variable "gimbal_can_send_data"  was declared but never referenced
   static uint8_t              gimbal_can_send_data[8];
-..\application\CAN_receive.c: 6 warnings, 0 errors
+..\application\CAN_receive.c: 7 warnings, 0 errors
 linking...
-Program Size: Code=9174 RO-data=450 RW-data=40 ZI-data=1760  
+Program Size: Code=8710 RO-data=450 RW-data=40 ZI-data=1760  
 FromELF: creating hex file...
 "can\can.axf" - 0 Error(s), 7 Warning(s).
 
@@ -72,7 +70,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.6.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:04
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

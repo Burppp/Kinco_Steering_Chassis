@@ -1,6 +1,5 @@
 can\can_receive.o: ..\application\CAN_receive.c
 can\can_receive.o: ..\application\CAN_receive.h
-can\can_receive.o: ..\application\struct_typedef.h
 can\can_receive.o: ../Inc/main.h
 can\can_receive.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 can\can_receive.o: ../Inc/stm32f4xx_hal_conf.h
@@ -31,7 +30,7 @@ can\can_receive.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
 can\can_receive.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
 can\can_receive.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 can\can_receive.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+can\can_receive.o: ..\application\object_dictionary.h
+can\can_receive.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
 can\can_receive.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
 can\can_receive.o: ..\application\packet_param.h
-can\can_receive.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdbool.h
-can\can_receive.o: ..\application\object_dictionary.h
