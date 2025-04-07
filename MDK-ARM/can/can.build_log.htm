@@ -3,30 +3,45 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Tool Versions:</h2>
-IDE-Version: ÂµVision V5.35.0.0
-Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: Lumos Lumos, Lumos, LIC=KRMW3-AVPGT-GK3BG-VN54B-EBBKW-F8E29
+IDE-Version: ¦ÌVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ty Administrator, t, LIC=EXJT4-F9NPU-Y8GFK-ZQJJC-EEBB3-W6HMH
  
 Tool Versions:
-Toolchain:       MDK-ARM Plus  Version: 5.35.0.2
-Toolchain Path:  D:\Keil5\ARM\ARMCC\Bin
-C Compiler:      Armcc.exe V5.06 update 7 (build 960)
-Assembler:       Armasm.exe V5.06 update 7 (build 960)
-Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
-Library Manager: ArmAr.exe V5.06 update 7 (build 960)
-Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
-CPU DLL:         SARMCM3.DLL V5.35.0.2
-Dialog DLL:      DCM.DLL V1.17.3.0
-Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
-Dialog DLL:      TCM.DLL V1.53.0.0
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  D:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
  
 <h2>Project:</h2>
-C:\Users\Lumos\Documents\GitHub\Kinco_Steering_Chassis\MDK-ARM\can.uvprojx
-Project File Date:  04/05/2025
+C:\Users\Administrator\Documents\GitHub\Kinco_Steering_Chassis\MDK-ARM\can.uvprojx
+Project File Date:  04/07/2025
 
 <h2>Output:</h2>
-*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil5\ARM\ARMCC\Bin'
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\keil5\ARM\ARMCC\Bin'
 Build target 'can'
+compiling object_dictionary_example.c...
+..\application\object_dictionary_example.c(13): warning:  #223-D: function "malloc" declared implicitly
+     OD_Entry* entry1 = (OD_Entry*)malloc(sizeof(OD_Entry));
+..\application\object_dictionary_example.c(32): warning:  #223-D: function "free" declared implicitly
+         free(entry1);
+..\application\object_dictionary_example.c(39): warning:  #223-D: function "free" declared implicitly
+         free(entry2);
+..\application\object_dictionary_example.c(84): warning:  #1-D: last line of file ends without a newline
+  }
+..\application\object_dictionary_example.c: 4 warnings, 0 errors
+compiling object_dictionary.c...
+..\application\object_dictionary.c(223): warning:  #1-D: last line of file ends without a newline
+  } 
+..\application\object_dictionary.c: 1 warning, 0 errors
+compiling main.c...
 compiling CAN_receive.c...
 ..\application\packet_param.h(10): warning:  #47-D: incompatible redefinition of macro "CONTROL_WORD_ENABLE"  (declared at line 34 of "..\application\CAN_receive.h")
   #define CONTROL_WORD_ENABLE 0x000F
@@ -44,9 +59,9 @@ compiling CAN_receive.c...
   static uint8_t              gimbal_can_send_data[8];
 ..\application\CAN_receive.c: 7 warnings, 0 errors
 linking...
-Program Size: Code=8710 RO-data=450 RW-data=40 ZI-data=1760  
+Program Size: Code=8734 RO-data=450 RW-data=40 ZI-data=1760  
 FromELF: creating hex file...
-"can\can.axf" - 0 Error(s), 7 Warning(s).
+"can\can.axf" - 0 Error(s), 12 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -57,20 +72,19 @@ Package Vendor: ARM
    * Component: CORE Version: 5.6.0
 
 Package Vendor: Keil
-                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.16.0.pack
-                Keil.STM32F4xx_DFP.2.16.0
-                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.3.0.0.pack
+                Keil.STM32F4xx_DFP.3.0.0
+                STMicroelectronics STM32F4 Series Device Support
 
 <h2>Collection of Component include folders:</h2>
-  .\RTE\_can
-  C:\Users\Lumos\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
-  C:\Users\Lumos\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+  ./RTE/_can
+  D:/keil5/ARM/CMSIS/5.9.0/CMSIS/Core/Include
 
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.6.0
-      Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:02
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:01
 </pre>
 </body>
 </html>

@@ -849,11 +849,9 @@ interwork --depend=can\startup_stm32f407xx.d -ocan\startup_stm32f407xx.o -I.\RT
 ARM Macro Assembler    Page 14 
 
 
-E\_can -IC:\Users\Lumos\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Incl
-ude -IC:\Users\Lumos\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\
-CMSIS\Device\ST\STM32F4xx\Include --predefine="__UVISION_VERSION SETA 535" --pr
-edefine="_RTE_ SETA 1" --predefine="STM32F407xx SETA 1" --predefine="_RTE_ SETA
- 1" --list=startup_stm32f407xx.lst startup_stm32f407xx.s
+E\_can -ID:\keil5\ARM\CMSIS\5.9.0\CMSIS\Core\Include --predefine="__UVISION_VER
+SION SETA 538" --predefine="_RTE_ SETA 1" --predefine="STM32F407xx SETA 1" --pr
+edefine="_RTE_ SETA 1" --list=startup_stm32f407xx.lst startup_stm32f407xx.s
 
 
 

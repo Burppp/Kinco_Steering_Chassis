@@ -104,7 +104,8 @@ int main(void)
     OD_User_Init(od);
 
     CAN_motor_enable(0x01);
-    CAN_motor_mode(0x01, 0x01);
+    CAN_motor_mode(POSITION_CONTROL, 0x01);
+	CAN_motor_mode(SPEED_CONTROL, 0x02);
     CAN_motor_setProfileSpeed(150, 0x01);
 
     /* USER CODE END 2 */

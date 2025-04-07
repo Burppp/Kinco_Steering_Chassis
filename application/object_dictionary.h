@@ -34,6 +34,9 @@ typedef enum {
 
     // 位置环参数
     OD_INDEX_GROUP_POSITION_LOOP = 0x60FB,  //Kpp:1,K_Velocity_FF:2,K_Acc_FF:3,Pos_Filter_N:5
+	
+	//TPDO配置
+	OD_INDEX_TPDO_VALUE = 0x1A00,
 } OD_Index;
 
 typedef enum{

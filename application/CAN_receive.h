@@ -55,7 +55,10 @@ void CAN_motor_setSpeed(int32_t speed_ref, uint8_t motor_id);
 void CAN_motor_setProfileSpeed(uint32_t profile_speed, uint8_t motor_id);
 void CAN_motor_setPos(int32_t position_ref, uint8_t motor_id);
 
-// 新增的统一CAN打包和发送接口
-bool CAN_SDO_Send(uint8_t motor_id, uint16_t index, uint8_t subindex, void* value, OD_DataType dataType);
+void CAN_motor_TPDO_config(uint8_t motor_id);
+void CAN_motor_TPDO_enable(uint8_t ctrl, uint8_t motor_id);
 
+// 统一CAN打包和发送接口
+bool CAN_SDO_Send(uint8_t motor_id, uint16_t index, uint8_t subindex, void* value, OD_DataType dataType);
+bool CAN_PDO_Send(uint8_t ctrl, uint8_t motor_id);
 #endif

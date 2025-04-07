@@ -168,8 +168,35 @@ bool CAN_SDO_Send(uint8_t motor_id, uint16_t index, uint8_t subindex, void* valu
     return HAL_CAN_AddTxMessage(&CHASSIS_CAN, &chassis_tx_message, chassis_can_send_data, &send_mail_box) == HAL_OK;
 }
 
+bool CAN_PDO_Send(uint8_t ctrl, uint8_t motor_id)
+{
+	uint32_t send_mail_box;
+    
+    // 设置CAN消息头
+    chassis_tx_message.StdId = 0x000;
+    chassis_tx_message.IDE = CAN_ID_STD;
+    chassis_tx_message.RTR = CAN_RTR_DATA;
+    chassis_tx_message.DLC = 0x08;
+	
+	chassis_can_send_data[0] = ctrl;
+	chassis_can_send_data[1] = motor_id;
+	chassis_can_send_data[2] = 0;
+	chassis_can_send_data[3] = 0;
+	chassis_can_send_data[4] = 0;
+	chassis_can_send_data[5] = 0;
+	chassis_can_send_data[6] = 0;
+	chassis_can_send_data[7] = 0;
+	
+	// 发送CAN消息
+    return HAL_CAN_AddTxMessage(&CHASSIS_CAN, &chassis_tx_message, chassis_can_send_data, &send_mail_box) == HAL_OK;
+}
+
 void CAN_motor_enable(uint8_t motor_id) {
-    uint16_t value = CONTROL_WORD_ABSOLUTE_POSITION_ENABLE;
+	uint16_t value = 0;
+	if(motor_id & 0x01)
+		value = CONTROL_WORD_ABSOLUTE_POSITION_ENABLE;
+	else
+		value = CONTROL_WORD_ENABLE;
     CAN_SDO_Send(motor_id, OD_INDEX_CONTROL_WORD, OD_SUBINDEX_DEFAULT, &value, OD_TYPE_UINT16);
 }
 
@@ -187,4 +214,21 @@ void CAN_motor_setPos(int32_t position_ref, uint8_t motor_id) {
 
 void CAN_motor_setSpeed(int32_t speed_ref, uint8_t motor_id) {
     CAN_SDO_Send(motor_id, OD_INDEX_TARGET_SPEED, OD_SUBINDEX_DEFAULT, &speed_ref, OD_TYPE_INT32);
+}
+
+void CAN_motor_TPDO_config(uint8_t motor_id)
+{
+	uint8_t value = 3;
+	uint32_t pos_fdb_address = OD_INDEX_ACTUAL_POSITION;
+	uint32_t vel_fdb_address = OD_INDEX_ACTUAL_VELOCITY;
+	uint32_t tor_fdb_address = OD_INDEX_ACTUAL_CURRENT;
+	CAN_SDO_Send(motor_id, OD_INDEX_TPDO_VALUE, OD_SUBINDEX_DEFAULT, &value, OD_TYPE_INT8);
+	CAN_SDO_Send(motor_id, OD_INDEX_TPDO_VALUE, OD_SUBINDEX_1, &pos_fdb_address, OD_TYPE_UINT32);
+	CAN_SDO_Send(motor_id, OD_INDEX_TPDO_VALUE, OD_SUBINDEX_2, &vel_fdb_address, OD_TYPE_UINT32);
+	CAN_SDO_Send(motor_id, OD_INDEX_TPDO_VALUE, OD_SUBINDEX_3, &tor_fdb_address, OD_TYPE_UINT32);
+}
+
+void CAN_motor_TPDO_enable(uint8_t ctrl, uint8_t motor_id)
+{
+	CAN_PDO_Send(ctrl, motor_id);
 }
