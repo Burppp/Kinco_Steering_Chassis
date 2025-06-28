@@ -27,12 +27,14 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "struct_typedef.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-
+extern volatile uint16_t LPUART1_RX_LEN;
+extern uint8_t bRxBufferUart1[1]; //接收数据
+extern uint8_t LPUART1_RX_BUF[1024];//缓存数据
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
@@ -56,7 +58,9 @@ void DebugMon_Handler(void);
 void PendSV_Handler(void);
 void SysTick_Handler(void);
 void CAN1_RX0_IRQHandler(void);
+void USART1_IRQHandler(void);
 void CAN2_RX0_IRQHandler(void);
+void USART6_IRQHandler(void);
 /* USER CODE BEGIN EFP */
 
 /* USER CODE END EFP */

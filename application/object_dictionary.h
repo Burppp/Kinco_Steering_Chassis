@@ -10,6 +10,7 @@ typedef enum {
     OD_INDEX_CONTROL_WORD = 0x6040,    // 控制字
     OD_INDEX_STATUS_WORD = 0x6041,     // 状态字
     OD_INDEX_MODE_OF_OPERATION = 0x6060, // 运行模式
+    OD_INDEX_ENCODER_DATA_RESET = 0x2690, // 编码器多圈数据复位
 
     // 测量数据
     OD_INDEX_ACTUAL_POSITION = 0x6063,   // 实际位置

@@ -53,57 +53,45 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 
     switch (rx_header.StdId)
     {
-        // case CAN_3508_M1_ID:
-        // case CAN_3508_M2_ID:
-        // case CAN_3508_M3_ID:
-        // case CAN_3508_M4_ID:
-        // case CAN_YAW_MOTOR_ID:
-        // case CAN_PIT_MOTOR_ID:
-        // case CAN_TRIGGER_MOTOR_ID:
-        // {
-        //     static uint8_t i = 0;
-        //     //get motor id
-        //     i = rx_header.StdId - CAN_3508_M1_ID;
-        //     get_motor_measure(&motor_chassis[i], rx_data);
-        //     break;
-        // }
 
-        case SDO_SELF_ID:
-            SDO_FRAME_t frame;
-            // memcpy(&frame, rx_data, sizeof(SDO_FRAME_t));
-            frame.ctrl = rx_data[0];
-            frame.index = rx_data[1] | (rx_data[2] << 8);
-            frame.subindex = rx_data[3];
-            if(frame.ctrl == SEND_SUCCESS_FEEDBACK)
-            {
-                OD_Entry* entry = OD_GetEntry(od, frame.index, frame.subindex);
-                uint8_t data_length = 0;
-                switch (entry->dataType) {
-                    case OD_TYPE_INT8:
-                    case OD_TYPE_UINT8:
-                        data_length = 1;
-                        break;
-                    case OD_TYPE_INT16:
-                    case OD_TYPE_UINT16:
-                        data_length = 2;
-                        break;
-                    case OD_TYPE_INT32:
-                    case OD_TYPE_UINT32:
-                        data_length = 4;
-                        break;
-                    default:
-                        break;
-                }
-                uint8_t *recv_data = NULL;
-                // memcpy(recv_data, rx_data + sizeof(recv_data), data_length);
-                recv_data = rx_data + sizeof(SDO_FRAME_t);
-                OD_SetValue(od, frame.index, frame.subindex, (uint8_t *)&rx_data[4]);
-            }
-            else if(frame.ctrl == SEND_FAILED_FEEDBACK)
-            {
-                //error code
-            }
-            break;
+//        case SDO_SELF_ID:
+//            SDO_FRAME_t frame;
+//            // memcpy(&frame, rx_data, sizeof(SDO_FRAME_t));
+//            frame.ctrl = rx_data[0];
+//            frame.index = rx_data[1] | (rx_data[2] << 8);
+//            frame.subindex = rx_data[3];
+//            if(frame.ctrl == SEND_SUCCESS_FEEDBACK)
+//            {
+//                OD_Entry* entry = OD_GetEntry(od, frame.index, frame.subindex);
+//				if(entry == NULL)
+//					return;
+//                uint8_t data_length = 0;
+//                switch (entry->dataType) {
+//                    case OD_TYPE_INT8:
+//                    case OD_TYPE_UINT8:
+//                        data_length = 1;
+//                        break;
+//                    case OD_TYPE_INT16:
+//                    case OD_TYPE_UINT16:
+//                        data_length = 2;
+//                        break;
+//                    case OD_TYPE_INT32:
+//                    case OD_TYPE_UINT32:
+//                        data_length = 4;
+//                        break;
+//                    default:
+//                        break;
+//                }
+//                uint8_t *recv_data = NULL;
+//                // memcpy(recv_data, rx_data + sizeof(recv_data), data_length);
+//                recv_data = rx_data + sizeof(SDO_FRAME_t);
+//                //OD_SetValue(od, frame.index, frame.subindex, (uint8_t *)&rx_data[4]);
+//            }
+//            else if(frame.ctrl == SEND_FAILED_FEEDBACK)
+//            {
+//                //error code
+//            }
+//            break;
         
 
         default:
@@ -124,10 +112,13 @@ bool CAN_SDO_Send(uint8_t motor_id, uint16_t index, uint8_t subindex, void* valu
     chassis_tx_message.DLC = 0x08;
     
     // 获取对象字典条目
-    OD_Entry* entry = OD_GetEntry(od, index, subindex);
-    if (entry == NULL || !entry->accessWrite) {
-        return false;
-    }
+//    OD_Entry* entry = OD_GetEntry(od, index, subindex);
+//	if(entry == NULL)
+//		return false;
+//    if (!entry->accessWrite) 
+//	{
+//        return false;
+//    }
     
     // 确定数据长度
     uint8_t data_length_ctrl = 0;
@@ -205,7 +196,10 @@ void CAN_motor_mode(int8_t mode, uint8_t motor_id) {
 }
 
 void CAN_motor_setProfileSpeed(uint32_t profile_speed, uint8_t motor_id) {
-    CAN_SDO_Send(motor_id, OD_INDEX_PROFILE_SPEED, OD_SUBINDEX_DEFAULT, &profile_speed, OD_TYPE_UINT32);
+	float dec_f = (float)(profile_speed);
+	dec_f = dec_f * 512 * 65535 / 1875;
+	uint32_t dec_u = (uint32_t)dec_f;
+    CAN_SDO_Send(motor_id, OD_INDEX_PROFILE_SPEED, OD_SUBINDEX_DEFAULT, &dec_u, OD_TYPE_UINT32);
 }
 
 void CAN_motor_setPos(int32_t position_ref, uint8_t motor_id) {
@@ -214,6 +208,10 @@ void CAN_motor_setPos(int32_t position_ref, uint8_t motor_id) {
 
 void CAN_motor_setSpeed(int32_t speed_ref, uint8_t motor_id) {
     CAN_SDO_Send(motor_id, OD_INDEX_TARGET_SPEED, OD_SUBINDEX_DEFAULT, &speed_ref, OD_TYPE_INT32);
+}
+
+void CAN_motor_encoderDataReset(uint8_t value, uint8_t motor_id) {
+    CAN_SDO_Send(motor_id, OD_INDEX_ENCODER_DATA_RESET, OD_SUBINDEX_DEFAULT, &value, OD_TYPE_UINT8);
 }
 
 void CAN_motor_TPDO_config(uint8_t motor_id)

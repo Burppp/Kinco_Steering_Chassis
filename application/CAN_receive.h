@@ -30,11 +30,6 @@
 #define CAN_SEND_2_BYTE    0x2B
 #define CAN_SEND_4_BYTE    0x23
 
-// 控制字定义
-#define CONTROL_WORD_ENABLE    0x0006
-#define CONTROL_WORD_DISABLE   0x0000
-#define CONTROL_WORD_ABSOLUTE_POSITION_ENABLE 0x001F
-
 // 运行模式定义
 typedef enum
 {
@@ -54,6 +49,7 @@ void CAN_motor_mode(int8_t mode, uint8_t motor_id);
 void CAN_motor_setSpeed(int32_t speed_ref, uint8_t motor_id);
 void CAN_motor_setProfileSpeed(uint32_t profile_speed, uint8_t motor_id);
 void CAN_motor_setPos(int32_t position_ref, uint8_t motor_id);
+void CAN_motor_encoderDataReset(uint8_t value, uint8_t motor_id);
 
 void CAN_motor_TPDO_config(uint8_t motor_id);
 void CAN_motor_TPDO_enable(uint8_t ctrl, uint8_t motor_id);

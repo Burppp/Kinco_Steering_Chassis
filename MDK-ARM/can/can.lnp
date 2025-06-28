@@ -3,6 +3,7 @@
 "can\main.o"
 "can\gpio.o"
 "can\can.o"
+"can\usart.o"
 "can\stm32f4xx_it.o"
 "can\stm32f4xx_hal_msp.o"
 "can\stm32f4xx_hal_can.o"
@@ -21,11 +22,12 @@
 "can\stm32f4xx_hal_exti.o"
 "can\stm32f4xx_hal_tim.o"
 "can\stm32f4xx_hal_tim_ex.o"
+"can\stm32f4xx_hal_uart.o"
 "can\system_stm32f4xx.o"
 "can\can_receive.o"
 "can\object_dictionary.o"
-"can\object_dictionary_example.o"
 "can\bsp_can.o"
+"can\lora.o"
 --strict --scatter "can\can.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

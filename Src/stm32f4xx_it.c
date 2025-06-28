@@ -57,6 +57,8 @@
 /* External variables --------------------------------------------------------*/
 extern CAN_HandleTypeDef hcan1;
 extern CAN_HandleTypeDef hcan2;
+extern UART_HandleTypeDef huart1;
+extern UART_HandleTypeDef huart6;
 /* USER CODE BEGIN EV */
 
 /* USER CODE END EV */
@@ -214,6 +216,20 @@ void CAN1_RX0_IRQHandler(void)
 }
 
 /**
+  * @brief This function handles USART1 global interrupt.
+  */
+void USART1_IRQHandler(void)
+{
+  /* USER CODE BEGIN USART1_IRQn 0 */
+
+  /* USER CODE END USART1_IRQn 0 */
+  HAL_UART_IRQHandler(&huart1);
+  /* USER CODE BEGIN USART1_IRQn 1 */
+
+  /* USER CODE END USART1_IRQn 1 */
+}
+
+/**
   * @brief This function handles CAN2 RX0 interrupts.
   */
 void CAN2_RX0_IRQHandler(void)
@@ -227,6 +243,58 @@ void CAN2_RX0_IRQHandler(void)
   /* USER CODE END CAN2_RX0_IRQn 1 */
 }
 
-/* USER CODE BEGIN 1 */
+/**
+  * @brief This function handles USART6 global interrupt.
+  */
+void USART6_IRQHandler(void)
+{
+  /* USER CODE BEGIN USART6_IRQn 0 */
 
+  /* USER CODE END USART6_IRQn 0 */
+  HAL_UART_IRQHandler(&huart6);
+  /* USER CODE BEGIN USART6_IRQn 1 */
+
+  /* USER CODE END USART6_IRQn 1 */
+}
+
+/* USER CODE BEGIN 1 */
+int8_t wasdLR[7] = {0};
+uint8_t num = 0;
+int32_t target_pos = 0;
+int32_t step = 5000;
+uint8_t *sequence_num = NULL;
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+
+    if(huart->Instance == USART1)
+    {
+        LPUART1_RX_BUF[LPUART1_RX_LEN++]=bRxBufferUart1[0];
+
+        HAL_UART_Transmit(&huart6, &bRxBufferUart1[0], 1, 100);
+        if(bRxBufferUart1[0] == 'j')
+        {
+            num = LPUART1_RX_BUF[LPUART1_RX_LEN - 9] - '0';
+            sequence_num = &num;
+            wasdLR[0] = LPUART1_RX_BUF[LPUART1_RX_LEN - 8] - '0';
+            wasdLR[1] = LPUART1_RX_BUF[LPUART1_RX_LEN - 7] - '0';
+            wasdLR[2] = LPUART1_RX_BUF[LPUART1_RX_LEN - 6] - '0';
+            wasdLR[3] = LPUART1_RX_BUF[LPUART1_RX_LEN - 5] - '0';
+            wasdLR[4] = LPUART1_RX_BUF[LPUART1_RX_LEN - 4] - '0';//space
+            wasdLR[5] = LPUART1_RX_BUF[LPUART1_RX_LEN - 3] - '0';
+            wasdLR[6] = LPUART1_RX_BUF[LPUART1_RX_LEN - 2] - '0';
+			
+			if(wasdLR[5] == 1)
+			{
+				target_pos += step;
+			}
+			if(wasdLR[6] == 1)
+			{
+				target_pos -= step;
+			}
+            if(sequence_num)
+                HAL_UART_Transmit(&huart1, (uint8_t *)sequence_num, 1, 100);
+        }
+        HAL_UART_Receive_IT(&huart1,bRxBufferUart1,1);
+    }
+}
 /* USER CODE END 1 */
